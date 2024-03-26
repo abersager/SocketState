@@ -8,9 +8,9 @@ compatibility_flags = ["streams_enable_constructors"]
 
  kv_namespaces = [
   # put here your KV
-  { binding = "__example-remix-workers_sites_assets", id = "8c8c578f3be24ec5b93f71338d8ba60b" }
+  { binding = "__example-remix-workers_sites_assets", id = "904e5def2dd240ea88d26a03f190bca7", "preview_id" = "3a056b098d424674a79bc71a4982df02" }
 ]
- 
+
 
 [site]
   bucket = "./public"
