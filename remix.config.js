@@ -23,4 +23,4 @@ module.exports = {
     v2_routeConvention: true,
     v2_allowOverwrite: true,
   },
-};
+}
