@@ -1,4 +1,3 @@
 export interface Env {
-  // add here all your bindings
-  COUNTER: DurableObjectNamespace;
+  SOCKET_STATE_DURABLE_OBJECT: DurableObjectNamespace
 }

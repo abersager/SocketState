@@ -1,4 +1,4 @@
-name = "example-remix"
+name = "socket-state-demo"
 
 workers_dev = true
 main = "./build/index.js"
@@ -23,9 +23,9 @@ compatibility_flags = ["streams_enable_constructors"]
 
 [durable_objects]
 bindings = [
-  { name = "COUNTER", class_name = "Counter" }
+  { name = "SOCKET_STATE_DURABLE_OBJECT", class_name = "SocketStateDurableObject" }
 ]
 
 [[migrations]]
 tag = "v2" # Should be unique for each entry
-new_classes = ["Counter"]
+new_classes = ["SocketStateDurableObject"]

@@ -1,9 +1,8 @@
-import { createRequestHandler, handleAsset } from '@remix-run/cloudflare-workers'
 import * as build from '@remix-run/dev/server-build'
-import { Env } from './env'
+import type { Env } from './env'
 import { createEventHandler } from './serverEventer'
 
-export { Counter } from './do/counter'
+export { SocketStateDurableObject } from './do/socket-state-durable-object'
 
 export default {
   fetch: createEventHandler({
